@@ -1,0 +1,20 @@
+o | object_1
+s | field_1 | value-1
+s | field2  | value 2
+
+map
+i | item1  | 1
+f | item2  | 3.4
+s | item3 | value-1
+s | item4 | value-1
+e
+
+
+map
+i | item1  | 1
+f | item2  | 3.4
+s | item3 | value-1
+s | item4 | value-1
+e
+
+s | ofield3  | value 2

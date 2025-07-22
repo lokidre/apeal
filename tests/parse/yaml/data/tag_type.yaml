@@ -1,0 +1,19 @@
+--- !DocType
+
+- !Seq
+  a: Aa
+  b: Bb
+
+...
+
+--- !DocType2
+
+- !Seq2
+  a2: Aa2
+  b2: Bb2
+
+- !Seq3
+  a3: Aa3
+  b3: Bb4
+
+...

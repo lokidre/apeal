@@ -1,0 +1,18 @@
+o | object_1
+s | field_1 | value-1
+s | field2  | value 2
+i | fieldi  | 1
+f | fieldf  | 3.4
+e
+
+o | object_2
+s | field_1 | value-1
+s | field2  | value 2
+i | fieldi  | 1
+f | fieldf  | 3.4
+
+o | object_3
+s | field_1 | value-1
+s | field2  | value 2
+i | fieldi  | 1
+f | fieldf  | 3.4

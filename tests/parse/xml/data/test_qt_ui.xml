@@ -1,0 +1,207 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>InstrumentResult</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>InstrumentTransferResult</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>599</width>
+            <height>396</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Instrument Transfer Result</string>
+    </property>
+    <widget class="QGroupBox">
+        <property name="name">
+            <cstring>groupBox1</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>8</x>
+                <y>8</y>
+                <width>144</width>
+                <height>88</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>Sort:</string>
+        </property>
+        <widget class="QRadioButton">
+            <property name="name">
+                <cstring>radioButton1</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>8</x>
+                    <y>16</y>
+                    <width>82</width>
+                    <height>19</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Name</string>
+            </property>
+        </widget>
+        <widget class="QRadioButton">
+            <property name="name">
+                <cstring>radioButton2</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>8</x>
+                    <y>32</y>
+                    <width>82</width>
+                    <height>19</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Date</string>
+            </property>
+        </widget>
+        <widget class="QRadioButton">
+            <property name="name">
+                <cstring>radioButton3</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>8</x>
+                    <y>48</y>
+                    <width>82</width>
+                    <height>16</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Ascending</string>
+            </property>
+        </widget>
+        <widget class="QRadioButton">
+            <property name="name">
+                <cstring>radioButton4</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>8</x>
+                    <y>64</y>
+                    <width>82</width>
+                    <height>19</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Descending</string>
+            </property>
+        </widget>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>ExitButton</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>504</x>
+                <y>312</y>
+                <width>80</width>
+                <height>32</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Exit</string>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>RefreshButton</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>504</x>
+                <y>32</y>
+                <width>82</width>
+                <height>32</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Refresh</string>
+        </property>
+    </widget>
+    <widget class="QCheckBox">
+        <property name="name">
+            <cstring>checkBox1</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>504</x>
+                <y>80</y>
+                <width>88</width>
+                <height>19</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Auto Refresh</string>
+        </property>
+    </widget>
+    <widget class="QTable">
+        <property name="name">
+            <cstring>ResultList</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>184</x>
+                <y>40</y>
+                <width>272</width>
+                <height>296</height>
+            </rect>
+        </property>
+        <property name="numRows">
+            <number>3</number>
+        </property>
+        <property name="numCols">
+            <number>3</number>
+        </property>
+    </widget>
+    <widget class="QListBox">
+        <item>
+            <property name="text">
+                <string>New Item</string>
+            </property>
+        </item>
+        <property name="name">
+            <cstring>PatientList</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>8</x>
+                <y>104</y>
+                <width>144</width>
+                <height>232</height>
+            </rect>
+        </property>
+        <property name="frameShape">
+            <enum>StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Sunken</enum>
+        </property>
+    </widget>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>DeleteButton</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>505</x>
+                <y>112</y>
+                <width>88</width>
+                <height>41</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Delete</string>
+        </property>
+    </widget>
+</widget>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

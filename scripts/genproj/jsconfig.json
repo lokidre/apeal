@@ -1,0 +1,10 @@
+{
+  "target": "ESNext",
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es2021"],
+    "noImplicitAny": false
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

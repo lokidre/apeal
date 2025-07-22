@@ -1,0 +1,40 @@
+{
+	"gameMatch": {
+		"game": {
+			"players": {
+			}
+		},
+		"type": 67,
+		"id": 0,
+		"status": 32527,
+		"event": 1500423911,
+		"command": 83,
+		"state": {
+			"board": {
+				"dims": {
+					"w": 8,
+					"h": 8
+				}
+			},
+			"figures": [
+				{
+					"type": 0,
+					"color": 87,
+					"pos": {
+						"x": 4,
+						"y": 2
+					}
+				},
+				{
+					"type": 0,
+					"color": 66,
+					"pos": {
+						"x": 6,
+						"y": 7
+					}
+				}
+			],
+			"id": 0
+		}
+	}
+}

@@ -1,0 +1,18 @@
+player:
+  x: -12345
+  y: 5
+  score: 60
+  levels: [1, 2, 3]
+  pets:
+    - x: 1
+      y: 11
+    - x: 2
+      y: 22
+    - x: 3
+      y: 33
+  badges:
+    - 1: [100]
+      2: [200]
+  dog:
+    x: 5
+    y: 4

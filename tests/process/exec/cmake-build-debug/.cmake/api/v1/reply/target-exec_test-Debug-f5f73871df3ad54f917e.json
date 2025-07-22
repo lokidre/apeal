@@ -1,0 +1,2353 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "exec_test"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"addTest",
+			"add_compile_options",
+			"include",
+			"add_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/home/andrei/src/apeal/scripts/tests.cmake",
+			"CMakeLists.txt",
+			"/home/andrei/src/apeal/scripts/cmake/apeal_sources.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 126,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 280,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 237,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 281,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++23 -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_LIBPNG=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HAVE_ZLIB=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_DEBUG=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_WANT_LIB_EXT1__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/home/andrei/src/apeal/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/andrei/src/apeal/3rdparty/libpng"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/andrei/src/apeal/tests/common"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "23"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				213
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fcolor-diagnostics"
+				},
+				{
+					"fragment" : "-w"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_LIBPNG=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HAVE_ZLIB=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_DEBUG=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_WANT_LIB_EXT1__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/home/andrei/src/apeal/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/andrei/src/apeal/3rdparty/libpng"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/andrei/src/apeal/tests/common"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				215,
+				216,
+				217,
+				219,
+				221,
+				223,
+				224,
+				225,
+				226,
+				227,
+				230,
+				232,
+				234,
+				236,
+				239,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				255,
+				256,
+				259,
+				260,
+				262,
+				263,
+				264,
+				265,
+				266,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				285,
+				286
+			]
+		}
+	],
+	"id" : "exec_test::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "exec_test",
+	"nameOnDisk" : "exec_test",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "ApealTestCommon",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\src",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal",
+			"sourceIndexes" : 
+			[
+				26,
+				27,
+				28,
+				29,
+				36,
+				37,
+				39,
+				40,
+				41,
+				42,
+				43,
+				49,
+				52,
+				56,
+				57,
+				58,
+				59,
+				60,
+				65,
+				66,
+				73,
+				90,
+				96,
+				99,
+				100,
+				101,
+				102,
+				109,
+				110,
+				111,
+				112,
+				113,
+				124,
+				125,
+				126,
+				127,
+				162,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				212
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\buffer",
+			"sourceIndexes" : 
+			[
+				30,
+				31,
+				32,
+				33,
+				34,
+				35
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\cipher",
+			"sourceIndexes" : 
+			[
+				38
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\crc",
+			"sourceIndexes" : 
+			[
+				44,
+				45,
+				46,
+				47,
+				48
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\debug",
+			"sourceIndexes" : 
+			[
+				50,
+				51
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\def",
+			"sourceIndexes" : 
+			[
+				53,
+				54,
+				55
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\err",
+			"sourceIndexes" : 
+			[
+				61,
+				62,
+				63,
+				64
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\file",
+			"sourceIndexes" : 
+			[
+				67,
+				68,
+				69,
+				70,
+				71,
+				72
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\format",
+			"sourceIndexes" : 
+			[
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\geo",
+			"sourceIndexes" : 
+			[
+				91,
+				92,
+				93,
+				94,
+				95
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\hash",
+			"sourceIndexes" : 
+			[
+				97,
+				98
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\image",
+			"sourceIndexes" : 
+			[
+				103,
+				104,
+				105,
+				106,
+				107,
+				108
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\macos",
+			"sourceIndexes" : 
+			[
+				114,
+				115,
+				116
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\meta",
+			"sourceIndexes" : 
+			[
+				117,
+				118,
+				119,
+				120,
+				121,
+				122
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\mm",
+			"sourceIndexes" : 
+			[
+				123
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\parse",
+			"sourceIndexes" : 
+			[
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\platform",
+			"sourceIndexes" : 
+			[
+				163,
+				164,
+				165,
+				166,
+				167,
+				168
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\policy",
+			"sourceIndexes" : 
+			[
+				169
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\str",
+			"sourceIndexes" : 
+			[
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\windows",
+			"sourceIndexes" : 
+			[
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\hpp\\apeal\\xaos",
+			"sourceIndexes" : 
+			[
+				211
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\3rdparty\\base58",
+			"sourceIndexes" : 
+			[
+				213,
+				214
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\3rdparty\\zlib",
+			"sourceIndexes" : 
+			[
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\3rdparty\\libpng\\arm",
+			"sourceIndexes" : 
+			[
+				241,
+				242,
+				243
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\3rdparty\\libpng\\intel",
+			"sourceIndexes" : 
+			[
+				244,
+				245
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\3rdparty\\libpng\\loongarch",
+			"sourceIndexes" : 
+			[
+				246,
+				247
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\3rdparty\\libpng\\mips",
+			"sourceIndexes" : 
+			[
+				248,
+				249,
+				250
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\3rdparty\\libpng",
+			"sourceIndexes" : 
+			[
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\3rdparty\\libpng\\powerpc",
+			"sourceIndexes" : 
+			[
+				273,
+				274
+			]
+		},
+		{
+			"name" : "Sources\\Apeal\\3rdparty\\uuid",
+			"sourceIndexes" : 
+			[
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "exec_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/tests/common/test_main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_base58.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_cipher_cast128.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_console.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_debug.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_error.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_fs.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_image.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_image_bmp.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_image_convert.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_image_file.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_image_ico.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_image_libjpeg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_image_libpng.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_image_libtiff.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_image_openjpeg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_mutex.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_printer.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_process.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_random.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_thread.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_time.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_uid.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_uuid.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/src/apeal_zlib.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/arithm.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/ascii.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/assert.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/base58.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/buffer/buffer.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/buffer/buffer_base.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/buffer/fixed_buffer.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/buffer/linked_ring_buffer.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/buffer/pool_buffer.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/buffer/ring_buffer.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/buffer.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/char.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/cipher/cast128.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/cmdline.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/concepts.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/console.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/containers.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/cprep.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/crc/adler.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/crc/autodin.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/crc/crc.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/crc/crc64.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/crc/crc8.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/data_param.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/debug/debug_print_core.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/debug/debug_trap.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/debug.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/def/def_debug.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/def/def_stdlib.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/def/def_target_os.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/def.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/deprecated.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/empty.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/endian.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/enum_bitmask.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/err/eerrno.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/err/esock.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/err/eunix.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/err/ewin.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/error.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/event.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/file/apeal_file.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/file/fdir.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/file/filename.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/file/fs.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/file/fvolume.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/file/fwrtfmt.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/file.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_append.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_append_body.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_append_body_arg.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_arg.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_components.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_remainder.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_type.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_type_bool.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_type_char.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_type_geo.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_type_int.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_type_real.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_type_string.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_type_util.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_type_vector.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/format/str_format_util.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/fs.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/geo/margins.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/geo/point.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/geo/point3d.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/geo/rect.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/geo/size.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/geo.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/hash/md5.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/hash/sha256.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/hash.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/have.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/http.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/ignore.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/image/bmp.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/image/ico.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/image/libjpeg.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/image/libpng.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/image/libtiff.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/image/openjpeg.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/image.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/index.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/iterator.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/lang.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/logger.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/macos/cfobject.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/macos/nslog.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/macos/nsstring.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/meta/foreach.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/meta/iterator.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/meta/match.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/meta/search.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/meta/typelist.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/meta/typemap.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/mm/tinymem.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/mutex.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/noncopyable.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/on_exit.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/openssl.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/bool.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/csv.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/float.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/geo.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/http.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/ini.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/int.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/json.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/json_builder.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/json_object.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/json_parser.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/json_processor.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/number.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/parse_base.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/parse_file.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/parse_input.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/parse_stream.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/parse_util.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/parse_value.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/preprocessor.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/selection.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/split.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/string.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/uri.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/url.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/val_range.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/vector.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/xml.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/yaml.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/yaml_builder.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/yaml_generator.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/yaml_object.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/yaml_parser.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse/yaml_processor.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/parse.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/platform/android.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/platform/cygwin.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/platform/ios.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/platform/macos.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/platform/qt.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/platform/windows.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/policy/policy_exception.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/policy.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/printer.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/process.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/random.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/signal.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/singleton.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/socket.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/stl.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/str/case.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/str/custom.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/str/escape.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/str/format.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/str/join.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/str/replace.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/str/strview.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/str/sysapi.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/str/trim.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/stream.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/string.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/strview.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/tar.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/thread.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/time.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/typemap.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/types.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/uid.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/util.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/uuid.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/val_range.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/vector.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/verify.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/void.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/windows/com.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/windows/disk_volume.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/windows/ole.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/windows/ole_bstr.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/windows/ole_idispatch.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/windows/ole_iunknown.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/windows/ole_variant.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/windows/registry.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/windows/windows.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/xaos/xsapi.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/include/apeal/zlib.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/andrei/src/apeal/3rdparty/base58/base58.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/base58/base58.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_adler32.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_compress.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_crc32.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_crc32.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_deflate.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_deflate.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_gzclose.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_gzguts.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_gzlib.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_gzread.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_gzwrite.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_infback.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_inffast.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_inffast.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_inffixed.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_inflate.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_inflate.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_inftrees.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_inftrees.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_trees.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_trees.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_uncompr.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_zconf.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_zlib.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_zutil.c",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/zlib/zlib_zutil.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/arm/arm_init.c",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/arm/filter_neon_intrinsics.c",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/arm/palette_neon_intrinsics.c",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/intel/filter_sse2_intrinsics.c",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/intel/intel_init.c",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/loongarch/filter_lsx_intrinsics.c",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/loongarch/loongarch_lsx_init.c",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/mips/filter_mmi_inline_assembly.c",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/mips/filter_msa_intrinsics.c",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/mips/mips_init.c",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/png.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/png.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngconf.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngdebug.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngerror.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngget.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pnginfo.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pnglibconf.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngmem.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngpread.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngpriv.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngread.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngrio.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngrtran.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngrutil.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngset.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngstruct.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngtrans.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngwio.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngwrite.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngwtran.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/pngwutil.c",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/powerpc/filter_vsx_intrinsics.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/libpng/powerpc/powerpc_init.c",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_clear.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_compare.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_config.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_copy.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_gen_uuid.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_isnull.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_pack.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_parse.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_time.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_types.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_unpack.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_unparse.c",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_uuid.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_uuidd.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/andrei/src/apeal/3rdparty/uuid/uuid_uuidP.h",
+			"sourceGroupIndex" : 32
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,3 @@
+/home/andrei/src/apeal/tests/process/exec/cmake-build-debug/CMakeFiles/exec_test.dir
+/home/andrei/src/apeal/tests/process/exec/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrei/src/apeal/tests/process/exec/cmake-build-debug/CMakeFiles/rebuild_cache.dir

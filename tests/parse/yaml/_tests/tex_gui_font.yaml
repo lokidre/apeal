@@ -1,0 +1,51 @@
+textures:
+  - file: tex_gui.png
+    size: [1024, 1024]
+    image_format: RGBA
+    density: 1
+    total_images: 332
+    images:
+      - name: back_button
+        hash: 6c5daefaf3adb5e4123d628d59afd71567ea7a7948964b53e7737e2a005b98d4
+        coords:
+          - rect: [358, 63, 30, 30]
+    fonts:
+      - name: gui_font_small
+        div: 64
+        height: 16
+        face:
+          family: Refrigerator Deluxe
+          style: Bold
+          units_per_em: 1000
+          bbox: [-100, 873, -230, 932]
+          ascent: 932
+          descent: -230
+          height: 1162
+          max_advance: 923
+          underline_position: -105
+          underline_thickness: 90
+        metrics:
+          ppem: [16, 16]
+          scale: [67109, 67109]
+          ascent: 960
+          descent: -256
+          height: 1216
+          max_advance: 960
+        glyphs:
+          - charcode: U0020
+            bitmap_size: [0, 0]
+            bitmap_rect: [0, 0, 0, 0]
+            bitmap_margin: [0, 0]
+            glyph_size: [0, 0]
+            horz_bearing: [0, 0]
+            vert_bearing: [0, 0]
+            advance: [192, 1216]
+          - charcode: U0021
+            tex: [1016, 1, 3, 12]
+            bitmap_size: [3, 12]
+            bitmap_rect: [0, 0, 3, 12]
+            bitmap_margin: [0, 12]
+            glyph_size: [192, 768]
+            horz_bearing: [0, 768]
+            vert_bearing: [0, 0]
+            advance: [192, 1216]

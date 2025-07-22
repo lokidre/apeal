@@ -1,0 +1,10 @@
+
+add_executable(${CMAKE_PROJECT_NAME} ${GUI_TYPE} ${main_SRC} ${bundle_SRC})
+
+
+if (MSVC)
+    set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ${CMAKE_PROJECT_NAME})
+
+    set_property(TARGET ${CMAKE_PROJECT_NAME} PROPERTY VS_GLOBAL_CodeAnalysisRuleSet ${CONFIG_VS_RULESET})
+endif()
+

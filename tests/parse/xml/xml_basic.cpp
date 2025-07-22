@@ -1,0 +1,27 @@
+/**************************************************************************
+ *   APEAL - Application Libray                                           *
+ *   Copyright (C) 1996-2025 Andrei Mirzoyan                              * 
+ *                                                                        *
+ *   This Source Code Form is subject to the terms of the Mozilla Public  *
+ *   License, v. 2.0. If a copy of the MPL was not distributed with this  *
+ *   file, You can obtain one at http://mozilla.org/MPL/2.0/.             *
+ **************************************************************************/
+#include <test_main.h>
+
+#include <test_xml.hpp>
+
+#include <apeal/parse/xml.hpp>
+#include <apeal/file.hpp>
+
+
+void body()
+{
+    auto filename = requireCmdlineArg();
+
+    auto text = apl::loadFile(filename);
+
+    auto xml = apl::parseXml(text);
+
+    dumpXml(xml);
+}
+

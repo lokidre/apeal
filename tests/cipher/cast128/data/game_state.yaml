@@ -1,0 +1,503 @@
+%YAML 1.2
+app: pentix_nova
+version: 0.0.1
+screenSize: [1920,1080]
+gameType: O
+brickset: F
+pieceProbability:
+  exp: [1.000000,1.000000,1.000000,1.000000,1.000000,0.000000]
+  linear: [1.000000,0.100000,0.200000,0.300000,1.500000,1.000000]
+level: 1
+levelClearedLines: 0
+score: 30
+gameTime: 4.469000
+idleTime: 5.431000
+board:
+  size: [11,27]
+  cells:
+    -
+      pos: [2,0]
+      content: B
+      color: Y
+    -
+      pos: [3,0]
+      content: B
+      color: Y
+    -
+      pos: [4,0]
+      content: B
+      color: Y
+    -
+      pos: [5,0]
+      content: B
+      color: Y
+    -
+      pos: [6,0]
+      content: B
+      color: Y
+    -
+      pos: [7,0]
+      content: B
+      color: Y
+    -
+      pos: [8,0]
+      content: B
+      color: Y
+    -
+      pos: [9,0]
+      content: B
+      color: Y
+    -
+      pos: [10,0]
+      content: B
+      color: Y
+    -
+      pos: [3,1]
+      content: B
+      color: Y
+    -
+      pos: [4,1]
+      content: B
+      color: Y
+    -
+      pos: [5,1]
+      content: B
+      color: Y
+    -
+      pos: [6,1]
+      content: B
+      color: Y
+    -
+      pos: [7,1]
+      content: B
+      color: Y
+    -
+      pos: [8,1]
+      content: B
+      color: Y
+    -
+      pos: [9,1]
+      content: B
+      color: Y
+    -
+      pos: [10,1]
+      content: B
+      color: Y
+    -
+      pos: [0,2]
+      content: B
+      color: Y
+    -
+      pos: [4,2]
+      content: B
+      color: Y
+    -
+      pos: [5,2]
+      content: B
+      color: Y
+    -
+      pos: [6,2]
+      content: B
+      color: Y
+    -
+      pos: [7,2]
+      content: B
+      color: Y
+    -
+      pos: [8,2]
+      content: B
+      color: Y
+    -
+      pos: [9,2]
+      content: B
+      color: Y
+    -
+      pos: [10,2]
+      content: B
+      color: Y
+    -
+      pos: [0,3]
+      content: B
+      color: Y
+    -
+      pos: [1,3]
+      content: B
+      color: Y
+    -
+      pos: [5,3]
+      content: B
+      color: Y
+    -
+      pos: [6,3]
+      content: B
+      color: Y
+    -
+      pos: [7,3]
+      content: B
+      color: Y
+    -
+      pos: [8,3]
+      content: B
+      color: Y
+    -
+      pos: [9,3]
+      content: B
+      color: Y
+    -
+      pos: [10,3]
+      content: B
+      color: Y
+    -
+      pos: [0,4]
+      content: B
+      color: Y
+    -
+      pos: [1,4]
+      content: B
+      color: Y
+    -
+      pos: [2,4]
+      content: B
+      color: Y
+    -
+      pos: [6,4]
+      content: B
+      color: Y
+    -
+      pos: [7,4]
+      content: B
+      color: Y
+    -
+      pos: [8,4]
+      content: B
+      color: Y
+    -
+      pos: [9,4]
+      content: B
+      color: Y
+    -
+      pos: [10,4]
+      content: B
+      color: Y
+    -
+      pos: [0,5]
+      content: B
+      color: Y
+    -
+      pos: [1,5]
+      content: B
+      color: Y
+    -
+      pos: [2,5]
+      content: B
+      color: Y
+    -
+      pos: [3,5]
+      content: B
+      color: Y
+    -
+      pos: [7,5]
+      content: B
+      color: Y
+    -
+      pos: [8,5]
+      content: B
+      color: Y
+    -
+      pos: [9,5]
+      content: B
+      color: Y
+    -
+      pos: [10,5]
+      content: B
+      color: Y
+    -
+      pos: [0,6]
+      content: B
+      color: Y
+    -
+      pos: [1,6]
+      content: B
+      color: Y
+    -
+      pos: [2,6]
+      content: B
+      color: Y
+    -
+      pos: [3,6]
+      content: B
+      color: Y
+    -
+      pos: [4,6]
+      content: B
+      color: Y
+    -
+      pos: [8,6]
+      content: B
+      color: Y
+    -
+      pos: [9,6]
+      content: B
+      color: Y
+    -
+      pos: [10,6]
+      content: B
+      color: Y
+    -
+      pos: [0,7]
+      content: B
+      color: Y
+    -
+      pos: [1,7]
+      content: B
+      color: Y
+    -
+      pos: [2,7]
+      content: B
+      color: Y
+    -
+      pos: [3,7]
+      content: B
+      color: Y
+    -
+      pos: [4,7]
+      content: B
+      color: Y
+    -
+      pos: [5,7]
+      content: B
+      color: Y
+    -
+      pos: [9,7]
+      content: B
+      color: Y
+    -
+      pos: [10,7]
+      content: B
+      color: Y
+    -
+      pos: [0,8]
+      content: B
+      color: Y
+    -
+      pos: [1,8]
+      content: B
+      color: Y
+    -
+      pos: [2,8]
+      content: B
+      color: Y
+    -
+      pos: [3,8]
+      content: B
+      color: Y
+    -
+      pos: [4,8]
+      content: B
+      color: Y
+    -
+      pos: [5,8]
+      content: B
+      color: Y
+    -
+      pos: [6,8]
+      content: B
+      color: Y
+    -
+      pos: [9,8]
+      content: B
+      color: C
+    -
+      pos: [10,8]
+      content: B
+      color: Y
+    -
+      pos: [0,9]
+      content: B
+      color: Y
+    -
+      pos: [1,9]
+      content: B
+      color: Y
+    -
+      pos: [2,9]
+      content: B
+      color: Y
+    -
+      pos: [3,9]
+      content: B
+      color: Y
+    -
+      pos: [4,9]
+      content: B
+      color: Y
+    -
+      pos: [5,9]
+      content: B
+      color: Y
+    -
+      pos: [6,9]
+      content: B
+      color: Y
+    -
+      pos: [7,9]
+      content: B
+      color: Y
+    -
+      pos: [9,9]
+      content: B
+      color: C
+    -
+      pos: [10,9]
+      content: B
+      color: C
+    -
+      pos: [0,10]
+      content: B
+      color: Y
+    -
+      pos: [1,10]
+      content: B
+      color: Y
+    -
+      pos: [2,10]
+      content: B
+      color: Y
+    -
+      pos: [3,10]
+      content: B
+      color: Y
+    -
+      pos: [4,10]
+      content: B
+      color: Y
+    -
+      pos: [5,10]
+      content: B
+      color: Y
+    -
+      pos: [6,10]
+      content: B
+      color: Y
+    -
+      pos: [7,10]
+      content: B
+      color: Y
+    -
+      pos: [8,10]
+      content: B
+      color: Y
+    -
+      pos: [10,10]
+      content: B
+      color: C
+currentPiece:
+  color: T
+  code: t
+  pos: [4,24]
+  bricks:
+    -
+      pos: [1,0]
+      content: B
+    -
+      pos: [0,-1]
+      content: B
+    -
+      pos: [0,0]
+      content: B
+    -
+      pos: [0,1]
+      content: B
+nextPieces:
+  -
+    color: G
+    code: i
+    pos: [0,0]
+    bricks:
+      -
+        pos: [0,1]
+        content: B
+      -
+        pos: [0,0]
+        content: B
+      -
+        pos: [0,-1]
+        content: B
+      -
+        pos: [0,-2]
+        content: B
+  -
+    color: N
+    code: o
+    pos: [0,0]
+    bricks:
+      -
+        pos: [0,0]
+        content: B
+      -
+        pos: [-1,0]
+        content: B
+      -
+        pos: [0,-1]
+        content: B
+      -
+        pos: [-1,-1]
+        content: B
+  -
+    color: T
+    code: Y
+    pos: [0,0]
+    bricks:
+      -
+        pos: [-1,0]
+        content: B
+      -
+        pos: [0,1]
+        content: B
+      -
+        pos: [0,0]
+        content: B
+      -
+        pos: [0,-1]
+        content: B
+      -
+        pos: [0,-2]
+        content: B
+  -
+    color: B
+    code: I
+    pos: [0,0]
+    bricks:
+      -
+        pos: [0,2]
+        content: B
+      -
+        pos: [0,1]
+        content: B
+      -
+        pos: [0,0]
+        content: B
+      -
+        pos: [0,-1]
+        content: B
+      -
+        pos: [0,-2]
+        content: B
+  -
+    color: R
+    code: s
+    pos: [0,0]
+    bricks:
+      -
+        pos: [1,0]
+        content: B
+      -
+        pos: [0,0]
+        content: B
+      -
+        pos: [0,-1]
+        content: B
+      -
+        pos: [-1,-1]
+        content: B
+1

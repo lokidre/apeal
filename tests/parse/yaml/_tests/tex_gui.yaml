@@ -1,0 +1,11 @@
+textures:
+  - file: tex_gui.png
+    size: [1024, 1024]
+    image_format: RGBA
+    density: 1
+    total_images: 332
+    images:
+      - name: back_button
+        hash: 6c5daefaf3adb5e4123d628d59afd71567ea7a7948964b53e7737e2a005b98d4
+        coords:
+          - rect: [358, 63, 30, 30]

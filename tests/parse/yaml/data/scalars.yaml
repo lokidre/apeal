@@ -1,0 +1,8 @@
+hr:  65    # Integer
+avg: 0.278 # Real
+rbi: 147   # Another integer
+last: 2
+s: string
+qs: "quoted string"
+sqs: 'single string'
+n: null  # null value

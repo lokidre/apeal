@@ -1,0 +1,5 @@
+packages:
+  - levels:
+      - pentix_nova_levels_beginner_1.yaml
+    group: beginner
+    board_width: 11

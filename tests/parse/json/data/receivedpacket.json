@@ -1,0 +1,111 @@
+{
+	"packet": {
+		"game": {
+			"id": 0,
+			"players": {
+				"1": {
+					"id": 1,
+					"key": 1,
+					"state": 67
+				},
+				"2": {
+					"id": 2,
+					"key": 2,
+					"state": 67
+				}
+			}
+		},
+		"id": 2,
+		"type": 83,
+		"status": 83,
+		"event": 0,
+		"command": 0,
+		"state": {
+			"id": 0,
+			"bases": [
+				{
+					"id": 1,
+					"type": 0,
+					"parentId": 1,
+					"status": 0,
+					"attackedBy": 0,
+					"pos": {
+						"x": 50,
+						"y": 70
+					},
+					"characters": [
+					]
+				},
+				{
+					"id": 2,
+					"type": -573939432,
+					"parentId": 1,
+					"status": 21890,
+					"attackedBy": 0,
+					"pos": {
+						"x": 150,
+						"y": 100
+					},
+					"characters": [
+					]
+				},
+				{
+					"id": 3,
+					"type": 1365018832,
+					"parentId": 1,
+					"status": 32764,
+					"attackedBy": 0,
+					"pos": {
+						"x": 300,
+						"y": 80
+					},
+					"characters": [
+					]
+				},
+				{
+					"id": 4,
+					"type": -573962400,
+					"parentId": 2,
+					"status": 21890,
+					"attackedBy": 0,
+					"pos": {
+						"x": 80,
+						"y": 350
+					},
+					"characters": [
+					]
+				},
+				{
+					"id": 5,
+					"type": 1,
+					"parentId": 2,
+					"status": 0,
+					"attackedBy": 0,
+					"pos": {
+						"x": 170,
+						"y": 480
+					},
+					"characters": [
+					]
+				},
+				{
+					"id": 6,
+					"type": 1,
+					"parentId": 2,
+					"status": 0,
+					"attackedBy": 0,
+					"pos": {
+						"x": 280,
+						"y": 450
+					},
+					"characters": [
+					]
+				}
+			],
+			"charOut": {
+			},
+			"obstacles": [107,108,109,110,111,202,190,191,179,166,153,140]
+		}
+	}
+}
+

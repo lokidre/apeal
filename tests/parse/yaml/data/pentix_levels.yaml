@@ -1,0 +1,25 @@
+packages:
+
+#  - maps: pentix_maps_1_1.yaml
+#  - maps: pentix_maps_1_2.yaml
+#  - maps: pentix_maps_1_3.yaml
+
+  - levels:
+      - pentix_nova_levels_beginner_1.yaml
+    group: beginner
+    board_width: 11
+
+#  - levels:
+#      - pentix_nova_levels_master_1.yaml
+#    group: master
+#    board_width: 11
+
+#  - levels:
+#      - pentix_nova_levels_pentix_1.yaml
+#    group: pentix
+#    board_width: 13
+
+#  - levels:
+#      - pentix_nova_levels_adventure_1.yaml
+#    group: adventure
+

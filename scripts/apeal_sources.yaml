@@ -1,0 +1,56 @@
+sources: 
+
+  #
+  # Apeal Sources
+  #
+  - dir: ${CONFIG_APEAL_SRC_DIR}
+    group: Apeal/src
+    mask: ["apeal_*.cpp"]
+
+  #
+  # Apeal headers
+  #
+  - dir: ${CONFIG_APEAL_INCLUDE_DIR}
+    group: Apeal/hpp
+    mask: ["*.hpp", "*.h"]
+
+  #
+  # Third party sources
+  #
+
+  #
+  # Useful Base58 encoding/decoding
+  #
+  - dir: ${CONFIG_APEAL_3RDPARTY_DIR}/base58
+    group: Apeal/3rdparty/base58
+
+
+  #
+  # zlib
+  #
+  - if: NOT IOS
+    dir: ${CONFIG_APEAL_3RDPARTY_DIR}/zlib
+    group: Apeal/3rdparty/zlib
+    compile_definitions: [HAVE_ZLIB=1]
+    disable_warnings: true
+    disable_pch: true
+
+  #
+  # libpng
+  #
+  - if: NOT IOS
+    dir: ${CONFIG_APEAL_3RDPARTY_DIR}/libpng
+    group: Apeal/3rdparty/libpng
+    include_directories: ${CONFIG_APEAL_3RDPARTY_DIR}/libpng
+    compile_definitions: [HAVE_LIBPNG=1]
+    disable_warnings: true
+    disable_pch: true
+
+  #
+  # libuuid
+  #
+  - if: NOT WIN32 AND NOT IOS
+    dir: ${CONFIG_APEAL_3RDPARTY_DIR}/uuid
+    group: Apeal/3rdparty/uuid
+    disable_warnings: true
+    disable_pch: true

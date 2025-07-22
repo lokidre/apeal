@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<test>
+    <node id="first" att="value" quoted="&quot;quoted">first node contents
+<![CDATA[
+SELECT <sdflk> </>
+]]>     <n/>
+    </node>
+    <nested id="top node">
+        <nested id="nested node"/>
+        <n/>
+    </nested>
+    <node2/>
+    <node3 id="third"/>
+    <node/>
+    <node/>
+</test>
